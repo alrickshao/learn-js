@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>dice</title>
+</head>
+
+<body>
+  <style>
+  .body {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+
+    background: gray;
+    flex-wrap: wrap;
+  }
+
+  .body #dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 33%;
+    height: 50%;
+  }
+  .body .num1 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+	justify-content: center;
+	align-items: center;
+  }
+  .body .num1 div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+  }
+
+  .body .num2 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+    flex-direction: column;
+	justify-content: space-around;
+  }
+  .body .num2 div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+
+    margin: 30px;
+    align-self: center;
+  }
+
+  .body .num3 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+    flex-direction: column;
+	justify-content: space-around;
+  }
+  .body .num3 div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+
+    margin: 10px;
+    align-self: center;
+  }
+  .boby .num3 div:nth-child(1){
+	align-self: flex-start;
+  }
+  .boby .num3 div:nth-child(2){
+	align-self: center;
+  }
+  .boby .num3 div:nth-child(3){
+	align-self: flex-end;
+  }
+
+  .body .num4 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+    flex-direction: column;
+	justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .body .num4 div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+
+    margin: 20px;
+    align-self: center;
+  }
+
+  .body .num5 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+    flex-direction: column;
+	justify-content: space-around;
+  }
+  .body .num5 .column {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+  .body .num5 .column div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+
+    align-self: center;
+  }
+
+  .body .num6 {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+
+    flex-direction: column;
+	justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .body .num6 div {
+	width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 150px;
+
+    margin: 10px;
+    align-self: center;
+  }
+  </style>
+  
+  <div class="body">
+    <div id="dice">
+        <div class="num1">
+            <div></div>
+        </div>
+    </div>
+    <div id="dice">
+        <div class="num2">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="dice">
+        <div class="num3">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="dice">
+        <div class="num4">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="dice">
+        <div class="num5">
+            <div class="column">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="column">
+                <div></div>
+            </div>
+            <div class="column">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="dice">
+        <div class="num6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
